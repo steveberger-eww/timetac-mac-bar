@@ -1,0 +1,19 @@
+# Local configuration — holds the OAuth client secret. Never commit.
+.env
+.env.*
+!.env.example
+company.env
+
+# Build output
+.build/
+.swiftpm/
+xcuserdata/
+*.xcodeproj/
+
+# Release artefacts
+*.app/
+*.dmg
+*.zip
+
+# macOS
+.DS_Store
